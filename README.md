@@ -7,6 +7,8 @@ A FastAPI application that interfaces with Spotify and utilizes GPT-4 to generat
 Before you begin, ensure you have met the following requirements:
 - You have a working Python 3.8+ environment.
 - You have a Spotify developer account and have created an application to obtain `client_id` and `client_secret`.
+  - Follow the directions here: https://developer.spotify.com/documentation/web-api/concepts/apps 
+  - **MUST DO THIS:** Set callback url to http://localhost:9000/callback **MUST DO THIS:**
 - You have the `fastapi`, `httpx`, `spotipy`, `pandas`, and `pydantic` libraries installed in your Python environment.
 - You have set up the necessary environment variables: `OPENAI_API_KEY`, `SPOTIFY_CLIENT_ID`, and `SPOTIFY_CLIENT_SECRET`.
 - For GPT-4 interactions, ensure you have access to the GPT-4 model, and the `langchain` library is installed and properly configured.
