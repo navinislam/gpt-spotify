@@ -31,8 +31,10 @@ echo "OPENAI_API_KEY=your_openai_api_key" >> .env
 echo "SPOTIFY_CLIENT_ID=your_spotify_client_id" >> .env
 echo "SPOTIFY_CLIENT_SECRET=your_spotify_client_secret" >> .env
 ```
-4. Run the FastAPI application
-``` make api```
+4. Run the FastAPI application using makefile
+``` 
+make api
+```
 
 ## Usage
 1. Access the root path of the application (http://localhost:8000/) in a web browser. This will redirect you to Spotify's authorization page.
