@@ -37,7 +37,7 @@ make api
 ```
 
 ## Usage
-1. Access the root path of the application (http://localhost:8000/) in a web browser. This will redirect you to Spotify's authorization page.
+1. Access the root path of the application (http://localhost:9000/) in a web browser. This will redirect you to Spotify's authorization page.
 
 2. Authorize the application to access and modify your Spotify playlists.
 
