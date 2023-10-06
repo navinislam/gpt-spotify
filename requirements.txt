@@ -1,0 +1,6 @@
+fastapi==0.103.2
+httpx==0.25.0
+langchain==0.0.309
+pandas==2.1.1
+pydantic==2.4.2
+spotipy==2.23.0
